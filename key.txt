@@ -1,0 +1,4 @@
+cc87af13dcdb13e0798c27c2c0cf4944
+
+
+http://api.openweathermap.org/data/2.5/forecast?q={city name}&appid={API key}
