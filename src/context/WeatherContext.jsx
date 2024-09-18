@@ -13,7 +13,7 @@ export default function WeatherContextProvider({ children }) {
     setLoading(true);
     setError(null);
     try {
-      const response = await axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=cc87af13dcdb13e0798c27c2c0cf4944`);
+      const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=cc87af13dcdb13e0798c27c2c0cf4944`);
       setWeatherData(response.data);
     } catch (error) {
       console.log("Problème de connexion au serveur", error);
