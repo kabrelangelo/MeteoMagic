@@ -1,10 +1,17 @@
+import {Routes, Route} from 'react-router-dom'
+import Weather from "./components/Weather";
+
 
 function App() {
  
 
   return (
     <>
+    <Routes>
+    <Route path='/' element={<Weather/>} />
+      </Routes>
       
+
     </>
   )
 }
