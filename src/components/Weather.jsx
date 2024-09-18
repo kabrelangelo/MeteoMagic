@@ -8,12 +8,10 @@ const Weather = () => {
 
   return (
     <div className="h-screen w-screen flex items-center justify-between px-8 bg-gradient-to-r from-blue-500 to-purple-600">
-      {/* Section Formulaire à gauche */}
       <div className="w-1/2 flex justify-center">
         <WeatherForm />
       </div>
 
-      {/* Section Météo à droite */}
       <div className="w-1/2 flex justify-center">
         {weatherData && (
           <WeatherCard />

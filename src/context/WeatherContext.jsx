@@ -5,7 +5,7 @@ export const WeatherContext = createContext();
 
 export default function WeatherContextProvider({ children }) {
   const [weatherData, setWeatherData] = useState(null);
-  const [city, setCity] = useState('Douala');
+  const [city, setCity] = useState('');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
